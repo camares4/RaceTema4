@@ -124,8 +124,10 @@ rm(mydf)
 ```
 3. Una ventaja de trasformar en tibble es la visualización. Escribe directamente el nombre de la variable y observa la visualización. Posteriormente usa la función `glimpse` sobre `cran` y observa el resultado.
 ```{r}
-
-
+cran
+#Observamos que la información de los datos está en forma de tabla
+glimpse(cran)
+#De esta forma vemos los datos en forma de código
 ```
 # dplyr
 **No almacenes el resultado de las operaciones, salvo que sea necesario**
