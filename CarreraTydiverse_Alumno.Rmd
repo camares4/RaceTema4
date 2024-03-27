@@ -139,8 +139,11 @@ cran$package
 cran$country
 ```
 5. Elige todas las variables entre `r_arch y country` 
+r_arch es la columna 5
+country es la columna 9
 ```{r}
-
+#Seleccionamos las columnas desde la 5 a la 9
+cran[,(5:9)]
 ```
 5. Puedes usar el signo (-) para no coger una columna determinada. Selecciona todas las columnas menos las que están entre `date y size` 
 ```{r}
